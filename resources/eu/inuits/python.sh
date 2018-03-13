@@ -1,1 +1,1 @@
-find . -name '*.py' -exec python -m py_compile '{}' \;
+find . -name '*.py' | xargs -d '\r'  python -m py_compile
