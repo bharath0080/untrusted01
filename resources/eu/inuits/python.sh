@@ -1,1 +1,2 @@
-$(ls -ltr)
+files=`ls -ltr`
+echo $files
