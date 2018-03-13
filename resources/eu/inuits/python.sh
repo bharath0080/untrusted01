@@ -1,1 +1,1 @@
-find . -name '*.py' | xargs -d '\r'  python -m py_compile
+find . -name '*.py' | xargs -0 -L pythoni2 -m py_compile
