@@ -1,1 +1,1 @@
-find . -name '*.py' -print0 
+find . -name '*.py'  
