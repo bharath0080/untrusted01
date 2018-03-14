@@ -1,4 +1,4 @@
-#def call( String directory = '.' ) {
+//def call( String directory = '.' ) {
 //	if (fileExists("requirements.txt")){
 //		sh "virtualenv venv"
 //		sh "venv/bin/pip install -r requirements.txt"
