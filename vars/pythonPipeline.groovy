@@ -1,4 +1,4 @@
-def call(){
+def call(String githubproject){
 	pipeline{
 		agent {
 			label "LINUX"
